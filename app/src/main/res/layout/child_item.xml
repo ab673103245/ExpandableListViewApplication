@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="56dp">
+
+    <!--  只计算 父的item   还有 子的item  , 子是一个子的item  ，不是全部子的item -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/username"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/usersign"
+        android:layout_below="@id/username"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#0f0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</RelativeLayout>
